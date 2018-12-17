@@ -20,8 +20,6 @@ class onewire:
 		for item in self._config["devices"]:
 			if not "id" in item:
 				raise ValueError("Missing uuid for onewire device")
-			if not "sensor" in item:
-				raise ValueError("Missing sensor for onewire device")
 			if not "topic" in item:
 				raise ValueError("Missing topic for onewire device")
 			self._devices[item["id"] + "/w1_slave"] = item["topic"]
