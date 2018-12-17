@@ -51,8 +51,6 @@ class Config:
 		for item in self._onewire["devices"]:
 			if not "id" in item:
 				raise ValueError("Missing id for onewire device")
-			if not "sensor" in item:
-				raise ValueError("Missing sensor for onewire device")
 			if not "topic" in item:
 				raise ValueError("Missing topic for onewire device")
 
