@@ -1,0 +1,13 @@
+mqtt:
+    host: hassio.beine.home
+    port: 1883
+    user: onewire
+    password: secret
+    topic: "mqtt/topic/for/onewire"
+onewire:
+    bus: /sys/bus/w1/devices
+    devices:
+      - id: 28-081541711fff
+        topic: temperature/1
+      - id: 28-081541711fff
+        topic: temperature/2

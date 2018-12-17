@@ -1,0 +1,8 @@
+__pycache__
+bin
+lib
+onewire2mqtt.bbprojectd
+pip-selfcheck.json
+pyvenv.cfg
+onewire2mqtt/onewire2mqtt.egg-info
+onewire2mqtt.yaml
