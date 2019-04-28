@@ -4,6 +4,8 @@ mqtt:
     user: onewire
     password: secret
     topic: "mqtt/topic/for/onewire"
+    qos: 1
+    retain: true
 onewire:
     bus: /sys/bus/w1/devices
     devices:

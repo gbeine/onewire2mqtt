@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='onewire2mqtt',
-      version='0.1',
+      version='0.2',
       description='onewire 2 MQTT bridge',
       url='https://github.com/gbeine/onewire2mqtt',
       author='Gerrit',
