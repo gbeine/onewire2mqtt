@@ -1,6 +1,7 @@
 __pycache__
 bin
 lib
+share
 onewire2mqtt.bbprojectd
 pip-selfcheck.json
 pyvenv.cfg
