@@ -1,0 +1,13 @@
+[program:onewire2mqtt]
+command=/opt/service/onewire2mqtt/run
+process_name=%(program_name)s
+directory=/opt/service/onewire2mqtt
+umask=022
+autostart=true
+redirect_stderr=true
+stdout_logfile=/var/log/onewire2mqtt/main.log
+stdout_logfile_maxbytes=2MB
+stdout_logfile_backups=1
+stdout_capture_maxbytes=0
+stdout_events_enabled=false
+environment=LOGDIR=/var/log/onewire2mqtt
